@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CMS&: Add Category</title>
+	<!--links to bootstrap, font-awesome, hover and app.css files-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- ********************************** Navbar  ********************************** -->
+
+
+
+<nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+    	<div class="navbar-header">
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+      		<a class="navbar-brand hvr-bounce-in" href="index.html">CMS&</a>
+    	</div>
+
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      		<ul class="nav navbar-nav">
+        		<li><a href="index.html" class="hvr-bounce-in">Dashboard</a></li>
+        		<li><a href="pages.html" class="hvr-bounce-in">Pages</a></li>
+        		<li class="active"><a href="categories.html" class="hvr-bounce-in">Categories</a></li>
+        		<li><a href="users.html" class="hvr-bounce-in">Users</a></li>
+
+     		 </ul>
+
+      	<form class="navbar-form navbar-left" role="search">
+          		<input type="text" class="form-control" placeholder="Search">
+      	</form>
+
+			<ul class="nav navbar-nav navbar-right">
+
+			    <li class="dropdown">
+			        <a href="#" class="dropdown-toggle hvr-bounce-in"  data-toggle="dropdown">My Account <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			         	<li><a href="#" class="hvr-bounce-in">Profile</a></li>
+			        </ul>
+			    </li>
+
+			    <li><a href="login.html" class="hvr-bounce-in">Logout</a></li>
+		    </ul>
+    	</div>
+  	</div>
+</nav>
+
+
+<!-- ********************************** Section ********************************** -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="list-group">
+					<a href="index.html" class="list-group-item">
+					   <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard
+					</a>
+				    <a href="pages.html" class="list-group-item"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Pages</a>
+				    <a href="categories.html" class="list-group-item active"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Categories</a>
+				    <a href="users.html" class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User Accounts</a>
+					</div>
+			</div> <!-- col-md-4 ending -->
+
+			<div class="col-md-8">
+				<div class="row">
+
+					<div class="col-md-12">
+						<h1 class="page-header hvr-bounce-in"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Add Category</h1>
+					</div>
+
+
+				</div> <!-- row ending -->
+
+				<ol class="breadcrumb">
+				  	<li><a href="index.html">Dashboard</a></li>
+				  	<li><a href="categories.html">Categories</a></li>
+				  	<li class="active">Category</li>
+				</ol>
+
+					<form>
+
+  						<div class="form-group">
+    						<label>Category Name</label>
+    							<input type="text" class="form-control" placeholder="Enter Page Title">
+ 						</div>
+
+						<div class="form-group">
+							<label>Main Image</label>
+							<input type="file">
+							<p class="help-block">Max size is 4GB</p>
+						</div>
+
+  						<button type="submit" class="btn btn-default hvr-push">Submit</button>
+					</form>
+
+			</div><!-- col-md-8 ending-->
+		</div> <!-- row ending -->
+	</div> <!-- container ending -->
+</section>
+
+
+
+<footer>
+	<p>Copyright 2017, All rights reserved</p>
+
+</footer>
+
+
+<!-- Links to jquery and bootstrap.js files -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+</body>
+</html>

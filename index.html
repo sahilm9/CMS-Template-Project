@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CMS&: Dashboard</title>
+	<!-- Links to bootstrap,font-awesome, hover and app.css files -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- ********************************** Navbar  ********************************** -->
+
+<nav class="navbar navbar-inverse">
+  	<div class="container-fluid">
+    	<div class="navbar-header">
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+      		<a class="navbar-brand hvr-bounce-in" href="index.html">CMS&</a>
+    	</div>
+
+    	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      		<ul class="nav navbar-nav">
+        		<li class="active"><a href="index.html" class="hvr-bounce-in">Dashboard</a></li>
+        		<li><a href="pages.html" class="hvr-bounce-in">Pages</a></li>
+        		<li><a href="categories.html" class="hvr-bounce-in">Categories</a></li>
+        		<li><a href="users.html" class="hvr-bounce-in">Users</a></li>
+
+     		 </ul>
+
+      	<form class="navbar-form navbar-left" role="search">
+          		<input type="text" class="form-control" placeholder="Search">
+      	</form>
+
+			<ul class="nav navbar-nav navbar-right">
+
+			    <li class="dropdown">
+			        <a href="#" class="dropdown-toggle hvr-bounce-in"  data-toggle="dropdown">My Account <b class="caret"></b></a>
+			        <ul class="dropdown-menu">
+			         	<li><a href="#" class="hvr-bounce-in">Profile</a></li>
+			        </ul>
+			    </li>
+
+			    <li><a href="login.html" class="hvr-bounce-in">Logout</a></li>
+		    </ul>
+    	</div>
+  	</div>
+</nav>
+
+<!-- ********************************** Section ********************************** -->
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="list-group">
+					<a href="#" class="list-group-item active">
+					   <span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard
+					</a>
+				    <a href="pages.html" class="list-group-item"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Pages</a>
+				    <a href="categories.html" class="list-group-item"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Categories</a>
+				    <a href="users.html" class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> User Accounts</a>
+					</div>
+			</div>
+
+			<div class="col-md-8">
+				<h1 class="page-header hvr-bounce-in"><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> Dashboard</h1>
+				<h3>Latest Pages</h3>
+				<table class="table table-striped">
+  					<thead>
+  						<tr>
+
+	  						<th>Page Title</th>
+	  						<th>Category</th>
+	  						<th>Author</th>
+
+  						</tr>
+
+  					</thead>
+
+  					<tbody>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Sample Page One</a></td>
+	  						<td>Category One</td>
+	  						<td>Robin Williams</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Sample Page Two</a></td>
+	  						<td>Category One</td>
+	  						<td>Sheldon Jackson</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Sample Page Three</a></td>
+	  						<td>Category Two</td>
+	  						<td>Chris White</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Sample Page Four</a></td>
+	  						<td>Category One</td>
+	  						<td>Tina Lopez</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Sample Page Five</a></td>
+	  						<td>Category Three</td>
+	  						<td>Chris Lee</td>
+  						</tr>
+
+  					</tbody>
+				</table>
+
+				<a href="pages.html" class="btn btn-default hvr-pulse">View All Pages</a>
+
+				<hr>
+
+				<h3>Latest Users</h3>
+
+								<table class="table table-striped">
+  					<thead>
+  						<tr>
+
+	  						<th>Name</th>
+	  						<th>Email</th>
+	  						<th>Group</th>
+
+  						</tr>
+
+  					</thead>
+
+  					<tbody>
+
+  						<tr>
+	  						<td><a href="user.html" class="hvr-bounce-out">Chirs Harris</a></td>
+	  						<td>chrisharris@gmail.com</td>
+	  						<td>Admin</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Charles Robinson</a></td>
+	  						<td>charlsrobinson@gmail.com</td>
+	  						<td>Registered</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Luis Wright</a></td>
+	  						<td>luiswright@gmail.com</td>
+	  						<td>Admin</td>
+  						</tr>
+
+  						<tr>
+	  						<td><a href="page.html" class="hvr-bounce-out">Scott Parker</a></td>
+	  						<td>scottparker@gmail.com</td>
+	  						<td>Registered</td>
+  						</tr>
+
+  					</tbody>
+				</table>
+
+				<a href="users.html" class="btn btn-default hvr-pulse">View All Pages</a>
+
+			</div>
+		</div> <!-- row ending -->
+	</div> <!-- container ending -->
+</section>
+
+
+
+<footer>
+	<p>Copyright 2017, All rights reserved</p>
+
+</footer>
+
+
+<!-- Links to jquery and bootstrap.js files -->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
